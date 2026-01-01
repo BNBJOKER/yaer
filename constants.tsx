@@ -39,12 +39,14 @@ export const SERVICE_SECTIONS: ServiceSectionData[] = [
     title: "一、平台头像 & 官方收录服务",
     subtitle: "提升项目可信度与曝光权重",
     items: [
-      { id: "s1-1", label: "Ave 平台头像收录", "270u（秒上）", "热搜 / 审计", image: "/images/1.png" },
-      { id: "s1-2", label: "TokenPocket (TP) 头像收录", image: "/images/2.png" },
-      { id: "s1-3", label: "Bitget Wallet (BG) 头像收录", image: "/images/3.png" },
-      { id: "s1-4", label: "欧易 (OKX) 头像收录", image: "/images/4.png" },
-      { id: "s1-5", label: "币安 (Binance) 头像收录", image: "/images/5.png" },
-      { id: "s1-6", label: "PancakeSwap (薄饼) 头像收录", image: "/images/6.png" },
+      { id: "s1-1", label: "Ave 平台头像收录-270u（秒上）", image: "/images/1.png" },
+      { id: "s1-2", label: "Ave 平台 热搜 / 审计", image: "/images/1.png" },
+      { id: "s1-3", label: "TokenPocket (TP) 头像收录-1000u（秒上）", image: "/images/2.png" },
+      { id: "s1-4", label: "Bitget Wallet (BG) 头像收录", image: "/images/3.png" },
+      { id: "s1-5", label: "欧易 (OKX) 头像收录", image: "/images/4.png" },
+      { id: "s1-6", label: "币安 (Binance) 头像收录", image: "/images/5.png" },
+      { id: "s1-7", label: "PancakeSwap (薄饼) 头像收录", image: "/images/6.png" },
+      { id: "s1-8", label: "项目官网定制开发", image: "/images/15.png" },
     ]
   },
   {
@@ -52,13 +54,14 @@ export const SERVICE_SECTIONS: ServiceSectionData[] = [
     title: "二、数据平台与行情工具收录",
     subtitle: "增强项目公信力与市场可见度",
     items: [
-      { id: "s2-1", label: "CoinMarketCap (CMC)", image: "/images/7.png" },
-      { id: "s2-2", label: "CoinGecko (CG)", image: "/images/8.png" },
-      { id: "s2-3", label: "非小号", image: "/images/9.png" },
-      { id: "s2-4", label: "DexTools", image: "/images/10.png" },
-      { id: "s2-5", label: "DexScreener", image: "/images/11.png" },
+      { id: "s2-1", label: "CoinMarketCap (CMC) - 4800u（24小时内）", image: "/images/7.png" },
+      { id: "s2-2", label: "CoinGecko (CG) - 450u（1-3天内）", image: "/images/8.png" },
+      { id: "s2-3", label: "非小号 - 2000u（秒上）", image: "/images/9.png" },
+      { id: "s2-4", label: "DexTools - 300u", image: "/images/10.png" },
+      { id: "s2-5", label: "DexScreener - 300u", image: "/images/11.png" },
       { id: "s2-6", label: "GMGN", image: "/images/12.png" },
-      { id: "s2-7", label: "BTOK 业务支持", image: "/images/13.png" },
+      { id: "s2-7", label: "BTOK 回话业广告 - 2400u", image: "/images/13.png" },
+      { id: "s2-8", label: "BTOK 开屏广告 - 3800u", image: "/images/13.png" },
     ]
   },
   {
@@ -66,7 +69,7 @@ export const SERVICE_SECTIONS: ServiceSectionData[] = [
     title: "三、审计与安全服务",
     subtitle: "为项目安全与投资者信心保驾护航",
     items: [
-      { id: "s3-1", label: "CertiK (CK) 安全审计", image: "/images/14.png" },
+      { id: "s3-1", label: "CertiK (CK) 安全审计 - 4800u（3天内）", image: "/images/14.png" },
       { id: "s3-2", label: "其他主流审计资源对接", icon: ShieldCheck },
     ]
   },
