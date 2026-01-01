@@ -39,7 +39,7 @@ export const SERVICE_SECTIONS: ServiceSectionData[] = [
     title: "一、平台头像 & 官方收录服务",
     subtitle: "提升项目可信度与曝光权重",
     items: [
-      { id: "s1-1", label: "Ave 平台头像收录-270u（秒上） / 热搜 / 审计", image: "/images/1.png" },
+      { id: "s1-1", label: "Ave 平台头像收录<br/>270u（秒上）<br/>热搜 / 审计", image: "/images/1.png" },
       { id: "s1-2", label: "TokenPocket (TP) 头像收录", image: "/images/2.png" },
       { id: "s1-3", label: "Bitget Wallet (BG) 头像收录", image: "/images/3.png" },
       { id: "s1-4", label: "欧易 (OKX) 头像收录", image: "/images/4.png" },
