@@ -63,9 +63,6 @@ const Hero: React.FC = () => {
             </video>
             
             {/* Overlay for replacement instruction - visible only in dev/edit mode usually, keeping subtle here */}
-            <div className="absolute bottom-4 right-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-md text-xs text-white/70 pointer-events-none">
-              960 x 912 MP4 Loop
-            </div>
           </div>
         </div>
       </div>
