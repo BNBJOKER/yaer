@@ -1,23 +1,21 @@
+import { LucideIcon } from 'lucide-react';
+
 export interface ServiceItem {
   id: string;
-  name: string;
-  type: 'logo' | 'icon';
-  brandColor?: string; // Hex code for the brand
-  textColor?: string;
+  label: string;
+  image?: string; // URL for the specific platform logo (1:1 aspect ratio)
+  icon?: LucideIcon; // Fallback generic icon
   description?: string;
-  iconName?: string; // For Lucide icons
 }
 
-export interface ServiceCategory {
+export interface ServiceSectionData {
   id: string;
   title: string;
   subtitle: string;
-  image: string; // Placeholder for the illustration URL
   items: ServiceItem[];
 }
 
-export interface Advantage {
-  title: string;
-  description: string;
-  iconName: string;
+export interface AdvantageItem {
+  icon: LucideIcon;
+  text: string;
 }
