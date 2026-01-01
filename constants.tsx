@@ -60,7 +60,7 @@ export const SERVICE_SECTIONS: ServiceSectionData[] = [
       { id: "s2-4", label: "DexTools - 300u", image: "/images/10.png" },
       { id: "s2-5", label: "DexScreener - 300u", image: "/images/11.png" },
       { id: "s2-6", label: "GMGN", image: "/images/12.png" },
-      { id: "s2-7", label: "BTOK 会话业广告 - 2400u", image: "/images/13.png" },
+      { id: "s2-7", label: "BTOK 会话业广告 - 2000u", image: "/images/13.png" },
       { id: "s2-8", label: "BTOK 开屏广告 - 3800u", image: "/images/13.png" },
     ]
   },
