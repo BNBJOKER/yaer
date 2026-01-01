@@ -1,24 +1,23 @@
-import { LucideIcon } from 'lucide-react';
-
 export interface ServiceItem {
   id: string;
-  title: string;
-  description: string;
-  items: string[];
-  icon: LucideIcon;
-  color: string;
+  name: string;
+  type: 'logo' | 'icon';
+  brandColor?: string; // Hex code for the brand
+  textColor?: string;
+  description?: string;
+  iconName?: string; // For Lucide icons
 }
 
-export interface AdvantageItem {
+export interface ServiceCategory {
   id: string;
   title: string;
-  description: string;
-  icon: LucideIcon;
+  subtitle: string;
+  image: string; // Placeholder for the illustration URL
+  items: ServiceItem[];
 }
 
-export interface ContactInfo {
-  label: string;
-  value: string;
-  link?: string;
-  type: 'telegram' | 'qq' | 'channel';
+export interface Advantage {
+  title: string;
+  description: string;
+  iconName: string;
 }

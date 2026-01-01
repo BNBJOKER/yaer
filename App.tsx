@@ -1,41 +1,53 @@
 import React from 'react';
-import { Hero } from './components/Hero';
-import { Services } from './components/Services';
-import { Advantages } from './components/Advantages';
-import { Contact } from './components/Contact';
+import Hero from './components/Hero';
+import ServiceSection from './components/ServiceSection';
+import Advantages from './components/Advantages';
+import Contact from './components/Contact';
+import { SERVICE_CATEGORIES } from './constants';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white text-slate-900 font-sans antialiased selection:bg-yellow-200 selection:text-black">
-      <Hero />
-      <Services />
-      <Advantages />
-      <Contact />
-      
-      {/* Sticky Mobile Contact Button */}
-      <div className="fixed bottom-6 right-6 z-50 md:hidden">
-        <a 
-          href="https://t.me/yaerchina" 
-          target="_blank" 
-          rel="noreferrer"
-          className="flex items-center justify-center w-16 h-16 bg-blue-500 rounded-full border-4 border-white shadow-lg text-white animate-bounce"
-        >
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            width="32" 
-            height="32" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            strokeWidth="2" 
-            strokeLinecap="round" 
-            strokeLinejoin="round"
+    <div className="min-h-screen bg-[#0f172a] text-slate-100 selection:bg-blue-500/30">
+      {/* Navbar placeholder for visual anchoring */}
+      <nav className="fixed top-0 w-full z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-white/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+          <div className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
+            Yaer Marketing
+          </div>
+          <a 
+            href="https://t.me/yaerchina" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sm font-medium text-white bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-500 transition-colors"
           >
-            <line x1="22" y1="2" x2="11" y2="13"></line>
-            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-          </svg>
-        </a>
-      </div>
+            联系我们
+          </a>
+        </div>
+      </nav>
+
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Hero />
+        
+        {/* Core Services Section */}
+        <div className="space-y-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-white inline-block border-b-4 border-blue-500 pb-2">
+              核心业务板块
+            </h2>
+          </div>
+          
+          {SERVICE_CATEGORIES.map((category, index) => (
+            <ServiceSection 
+              key={category.id} 
+              category={category} 
+              index={index} 
+            />
+          ))}
+        </div>
+
+        <Advantages />
+        <Contact />
+      </main>
     </div>
   );
 }
