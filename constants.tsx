@@ -56,7 +56,7 @@ export const SERVICE_SECTIONS: ServiceSectionData[] = [
       { id: "s2-2", label: "CoinGecko (CG)", image: "/images/8.png" },
       { id: "s2-3", label: "非小号", image: "/images/9.png" },
       { id: "s2-4", label: "DexTools", image: "/images/10.png" },
-      { id: "s2-5", label: "DexScreener", image: "/images/11png" },
+      { id: "s2-5", label: "DexScreener", image: "/images/11.png" },
       { id: "s2-6", label: "GMGN", image: "/images/12.png" },
       { id: "s2-7", label: "BTOK 业务支持", image: "/images/13.png" },
     ]
