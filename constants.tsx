@@ -39,14 +39,14 @@ export const SERVICE_SECTIONS: ServiceSectionData[] = [
     title: "一、平台头像 & 官方收录服务",
     subtitle: "提升项目可信度与曝光权重",
     items: [
-      { id: "s1-1", label: "Ave 平台头像收录-270u（秒上）", image: "/images/1.png" },
-      { id: "s1-2", label: "Ave 平台 热搜 / 审计", image: "/images/1.png" },
-      { id: "s1-3", label: "TokenPocket (TP) 头像收录-1000u（秒上）", image: "/images/2.png" },
+      { id: "s1-1", label: "Ave 平台头像收录 - 270u（秒上）", image: "/images/1.png" },
+      { id: "s1-2", label: "Ave 平台 热搜 / 审计 - 480u", image: "/images/1.png" },
+      { id: "s1-3", label: "TokenPocket (TP) 头像收录 - 1000u（秒上）", image: "/images/2.png" },
       { id: "s1-4", label: "Bitget Wallet (BG) 头像收录", image: "/images/3.png" },
       { id: "s1-5", label: "欧易 (OKX) 头像收录", image: "/images/4.png" },
       { id: "s1-6", label: "币安 (Binance) 头像收录", image: "/images/5.png" },
       { id: "s1-7", label: "PancakeSwap (薄饼) 头像收录", image: "/images/6.png" },
-      { id: "s1-8", label: "项目官网定制开发", image: "/images/15.png" },
+      { id: "s1-8", label: "项目官网定制开发 - 50u（当天）", image: "/images/15.png" },
     ]
   },
   {
@@ -78,10 +78,14 @@ export const SERVICE_SECTIONS: ServiceSectionData[] = [
     title: "四、社区与流量增长服务",
     subtitle: "打造高质量 Web3 社区生态",
     items: [
-      { id: "s4-1", label: "KOL 推广合作 (中文 / 海外)", icon: Megaphone },
-      { id: "s4-2", label: "Telegram 频道打包置顶", icon: Layers },
-      { id: "s4-3", label: "Telegram 会员增长", icon: Users },
-      { id: "s4-4", label: "社群活跃度维护与运营支持", icon: TrendingUp },
+      { id: "s4-1", label: "Telegram 僵尸粉 1000人（3u）", icon: Users },
+      { id: "s4-2", label: "Telegram 在线粉 1000人（25u/月）", icon: Users },
+      { id: "s4-3", label: "KOL 推广合作 (中文 / 海外)（10u一位）", icon: Megaphone },
+      { id: "s4-4", label: "推特会员 - (130u / 年)", icon: Layers },
+      { id: "s4-5", label: "Telegram 会员 - （14/3个月 18/6个月 31/一年）", icon: Layers },
+      { id: "s4-6", label: "Telegram 频道打包置顶", icon: Layers },
+      { id: "s4-7", label: "币圈头像海报设计", icon: TrendingUp },
+      { id: "s4-8", label: "社群活跃度维护与运营支持", icon: TrendingUp },
     ]
   },
   {
@@ -89,7 +93,7 @@ export const SERVICE_SECTIONS: ServiceSectionData[] = [
     title: "五、官网与品牌建设",
     subtitle: "塑造专业可信的项目形象",
     items: [
-      { id: "s5-1", label: "项目官网定制开发", image: "/images/15.png" },
+      { id: "s5-1", label: "项目官网定制开发 - 50u（当天）", image: "/images/15.png" },
       { id: "s5-2", label: "Web3 风格 UI / UX 设计", icon: LayoutTemplate },
       { id: "s5-3", label: "多语言官网支持", icon: Languages },
     ]
