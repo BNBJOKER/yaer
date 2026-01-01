@@ -24,7 +24,7 @@ export const HERO_CONTENT = {
   title: "雅儿币圈营销服务",
   subtitle: "一站式区块链项目推广解决方案",
   description: "我们专注于 加密货币 / Web3 / 区块链项目 的品牌曝光、渠道投放与生态建设，覆盖从项目冷启动到长期增长的完整营销链路，助力项目实现快速破圈与持续流量转化。",
-  videoUrl: "/videos/1.mp4" // Placeholder video loop
+  videoUrl: "/videos/1.mp4" //
 };
 
 export const CONTACT_INFO = {
