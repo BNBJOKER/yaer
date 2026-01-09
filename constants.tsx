@@ -70,7 +70,7 @@ export const SERVICE_SECTIONS: ServiceSectionData[] = [
     subtitle: "为项目安全与投资者信心保驾护航",
     items: [
       { id: "s3-1", label: "CertiK (CK) 安全审计 - 4800u（3天内）", image: "/images/14.png" },
-      { id: "s3-2", label: "其他主流审计资源对接", icon: ShieldCheck },
+      { id: "s3-2", label: "其他主流审计资源对接", image: "/images/23.png" },
     ]
   },
   {
