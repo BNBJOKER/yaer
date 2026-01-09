@@ -88,7 +88,7 @@ export const SERVICE_SECTIONS: ServiceSectionData[] = [
       { id: "s4-8", label: "QQ 僵尸粉 100人（4.3u）", image: "/images/18.png" },
       { id: "s4-9", label: "Youtube 视频博主 中 130-250u/位 - 英 70-130u/位", image: "/images/19.png" },
       { id: "s4-10", label: "币圈头像海报设计", image: "/images/22.png" },
-      { id: "s4-11", label: "社群活跃度维护与运营支持", icon: TrendingUp },
+      { id: "s4-11", label: "社群活跃度维护与运营支持", image: "/images/24.png" },
     ]
   },
   {
