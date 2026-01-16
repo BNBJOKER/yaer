@@ -1,21 +1,15 @@
-import { LucideIcon } from 'lucide-react';
-
 export interface ServiceItem {
   id: string;
-  label: string;
-  image?: string; // URL for the specific platform logo (1:1 aspect ratio)
-  icon?: LucideIcon; // Fallback generic icon
-  description?: string;
+  name: string;
+  price: string;
+  note?: string;
+  tags?: string[];
+  imageUrl: string;
 }
 
-export interface ServiceSectionData {
+export interface ServiceCategory {
   id: string;
   title: string;
   subtitle: string;
   items: ServiceItem[];
-}
-
-export interface AdvantageItem {
-  icon: LucideIcon;
-  text: string;
 }
