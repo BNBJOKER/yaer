@@ -15,7 +15,7 @@ const StickyFooter: React.FC = () => {
           <div className="bg-blue-500 p-2 rounded-full">
             <Send size={18} fill="white" />
           </div>
-          <span className="font-medium hidden sm:block">@yaerchina</span>
+          <span className="font-medium hidden sm:block">@yaerapp</span>
         </a>
         
         <div className="w-[1px] h-6 bg-white/20"></div>
