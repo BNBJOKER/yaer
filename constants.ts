@@ -160,7 +160,7 @@ export const UI_TEXT = {
 };
 
 export const CONTACT_INFO = {
-  telegram: '@yaerapp',
+  telegram: '@yaerchina',
   qq: '2812260666',
   channel: 't.me/fengyashecn'
 };
